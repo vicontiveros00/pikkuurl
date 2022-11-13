@@ -1,0 +1,20 @@
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 1rem;
+    background-color: #7532a8;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+@media screen and (max-width: 390px) {
+    footer.success {
+        position: relative !important
+    }
+}
